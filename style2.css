@@ -291,6 +291,20 @@ text-decoration: underline;
 
 }
 
+.star{
+width: 70px;
+transform:translateY(-8.5px) ;
+
+}
+.star-seller{
+font-size: 12px;
+display: flex;
+}
+.star-seller span{
+font-weight: bolder;
+
+}
+
 
 
 
