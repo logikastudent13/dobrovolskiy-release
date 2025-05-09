@@ -4,6 +4,11 @@ background-color:whitesmoke;
 font-family: sans-serif;
 color: rgb(42, 42, 42);
 }
+main{
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+}
 nav{
 justify-content: space-around;
 display: flex;
