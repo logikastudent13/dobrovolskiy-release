@@ -1,0 +1,295 @@
+
+body{
+background-color:whitesmoke;
+font-family: sans-serif;
+color: rgb(42, 42, 42);
+}
+nav{
+justify-content: space-around;
+display: flex;
+padding: 20px;
+background-color: rgb(234, 234, 234);
+border-bottom: 2px solid black;
+border-top: 2px solid black ;
+}
+nav a{
+transition: 0.25s;
+border-radius:10px ;
+padding: 3px;
+}
+
+nav a:hover{
+background-color:rgb(255, 149, 0);
+padding: 5px;
+
+}
+
+.catalog-img{
+border-radius: 7px;
+margin:45px;
+
+}
+.logo{
+width:60px;
+height: 60px;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.logotext{
+display: flex;
+
+
+
+}
+.search{
+display: flex;
+ transform: translateX(40px);
+border: 2px solid black;
+padding: 10px;
+padding-right: 150px;
+border-radius: 100px;
+color:rgb(110, 110, 110);
+transition: 0.25s;
+background: transparent;
+
+}
+.search-img{
+position: absolute;
+left: 327.5px;
+top:5px;
+}
+.enter{
+color:rgb(255, 255, 255);
+border-radius: 50px;
+padding-bottom: 10px;
+transform: translateX(40px);
+background-color: black;
+padding-top:11.5px ;
+padding-right:10px;
+padding-left:10px;
+transition: 0.20s;
+}
+.enter:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7px 0.7px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+.search:hover{
+background-color: rgb(233, 233, 233);
+border-radius: 0px;
+}
+.searchdiv{
+    display: flex;
+    position: relative}
+
+
+    footer h2{
+font-family: Nervous;
+font-size: 35px;
+font-weight: 100;
+
+}
+.story{
+    font-size: 12.5px;
+    position: relative;
+    top: -30px;
+   text-decoration: underline;
+}
+footer{
+background-color: bisque;
+padding-bottom: 30px;
+}
+.footer-text{
+text-align: center;
+}
+.story:hover{
+color:blue;
+
+
+}
+footer aside{
+ font-size:15px;
+ font-weight: 100;
+
+}
+.support{
+padding: 7px;
+border: 1px solid black;
+border-radius: 50px;
+padding-top: 5px;
+transition: 0.10s;
+}
+.support:hover{
+padding:8px;
+padding-top: 5.5px;
+    box-shadow: 0px 0px 10px 0.7px rgba(0, 0, 0, 0.3);
+    cursor:help;
+    }
+ 
+
+.footer-block{
+background-color: rgb(36, 36, 36);
+color: whitesmoke;
+font-size: 12px;
+display: flex;
+justify-content: space-around;
+padding: 5px;
+align-items: center;
+}
+.earth{
+transform: translateY(10px);
+
+}
+.footer-cont{
+margin-bottom: 20px;
+
+}
+.right-footer{
+display: flex;
+gap: 7px;
+
+}
+.product{
+
+display: flex;
+gap:30px;
+margin-top: 30px;
+}
+.img_cont{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.img_cont img{
+width: 80px;
+height: 80px;
+object-fit: contain;
+border-radius: 10px;
+opacity: 0.8;
+transition: 0.07s;
+}
+.img_cont img:hover{
+opacity: 1;
+cursor:pointer;
+}
+.product-img{
+width: 35%;
+height: 35%;
+border-radius: 7.5px;
+}
+.price-before{
+text-decoration: line-through;
+color: rgb(104, 103, 103);
+font-size: 12.5px;
+padding-left: 10px;
+display: flex;
+flex-direction: column;
+}
+.price-after{
+color:rgb(77, 126, 34);
+font-weight:bolder;
+font-size: 22.5px;
+
+}
+.discount{
+font-size: 12.5px;
+padding: 2.5px;
+background-color:rgb(120, 213, 120);
+border-radius: 15px;
+margin-left: 8.5px;}
+
+
+.price-cont{
+
+    display: flex;
+    align-items: center;
+}
+.views{
+    color:brown;
+    font-weight: bolder;
+}
+.sale-end{
+color:rgb(77, 126, 34);
+font-weight: bolder;
+margin: 0;
+}
+.nds{
+color: rgb(104, 103, 103);
+font-size: 12px;
+}
+.buy-cont{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.buy-cont span{
+font-size: 11.5px;
+color: rgb(0, 0, 0);
+font-weight: bolder;
+}
+.buy-cont input{
+padding: 5px;
+
+}
+button{
+color:rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 50px;
+padding: 10px;
+transition: 0.07s;
+}
+.button-footer{
+text-decoration: underline;
+}
+button:hover{
+box-shadow: 0px 0px 7px 0.7px rgba(0, 0, 0, 0.3);
+cursor:var;
+    
+}
+.product-img:hover{
+cursor:zoom-in;
+
+}
+.back{
+color: rgb(38, 38, 38);
+font-size: 12px;
+}
+.Way{
+text-align: center;
+font-size: 13.5px;
+margin-top: 10px;
+border-bottom: 2px solid black;
+}
+.back-img{
+transform: translateY(3.5px);
+margin-right: 7px;
+}
+.colors{
+font-weight: bolder;
+    font-size: 12px;
+}
+input{
+
+padding: 10px;
+
+}
+.Way-button:hover{
+text-decoration: underline;
+
+
+}
+
+
+
+
+
+
+
+
+
