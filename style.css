@@ -280,6 +280,13 @@ color: rgb(0, 0, 0);
 padding-left: 10px;
 font-weight: 300;
 }
+.product-link{
+font-size: 15px;
+color: rgb(0, 0, 0);
+padding-left: 10px;
+font-weight: 300;
+text-decoration:none;
+}
 .price-before{
 text-decoration: line-through;
 color: rgb(104, 103, 103);
